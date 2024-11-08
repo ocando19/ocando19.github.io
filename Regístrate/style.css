@@ -229,7 +229,7 @@ h1, .main__p {
 }
 
 .footer__container {
-    padding: 50px;
+    padding: 30px;
 }
 
 .footer__p {
@@ -249,6 +249,10 @@ h1, .main__p {
 
 .redes {
     text-align: center;
+}
+
+.contac_p {
+    font-family: sans-serif;
 }
 
 /*Media cueri*/

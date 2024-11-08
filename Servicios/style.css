@@ -119,7 +119,6 @@ span {
 
 .cursos__container {
     width: 300px;
-    height: 440px;
     border-radius: 10px;
     transition: background 0.4s,  box-shadow 0.4s, transform 0.4s;
 }
@@ -251,7 +250,7 @@ span {
 }
 
 .footer__container {
-    padding: 50px;
+    padding: 30px;
 }
 
 .footer__p {
@@ -271,6 +270,10 @@ span {
 
 .redes {
     text-align: center;
+}
+
+.contac_p {
+    font-family: sans-serif;
 }
 
 /*Media Quires*/
@@ -314,6 +317,11 @@ span {
 
 @media screen and (max-width: 480px)
 {
+    .cursos__container {
+        transition: none;
+        box-shadow: 1px 1px 4px 1px #0007;
+        background: #eeee;
+    }
     .footer {
         flex-direction: column;
         align-items: center;

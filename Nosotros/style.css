@@ -176,7 +176,7 @@ span {
 }
 
 .footer__container {
-    padding: 50px;
+    padding: 30px;
 }
 
 .footer__p {
@@ -196,6 +196,10 @@ span {
 
 .redes {
     text-align: center;
+}
+
+.contac_p {
+    font-family: sans-serif;
 }
 
 /*media query*/
