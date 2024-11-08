@@ -321,6 +321,7 @@ span {
         transition: none;
         box-shadow: 1px 1px 4px 1px #0007;
         background: #eeee;
+        transform: none;
     }
 
     .cursos__container:hover {
