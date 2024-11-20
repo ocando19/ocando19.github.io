@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: monserrate;
+    line-height: 25px;
+}
+
+/*Barra de navegacion*/
+
+.header {
+    background: rgb(1, 121, 148);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__open-nav, .checkbox {
+    display: none;
+}
+
+.nav__ul {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav__ul-li {
+    list-style: none;
+    
+}
+
+.nav__ul-li-link {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    transition: background 0.3s;
+    
+}
+
+.nav__ul-li-link:hover {
+
+    background: rgb(1, 159, 194);
+   
+}
+
+.nav__ul-li-link:active {
+    background: rgb(0, 143, 175);
+}
+
+.logo_img {
+    width: 85px;
+    margin: 10px 20px;
+}
+
+/*Main Titulo*/
+
+.main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    background-image: url(/Servicios/Imagenes/img-titulo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main__overlay {
+    height: 45vh;
+    width: 100%;
+    background: #0008;
+    position: absolute;
+    z-index: 1;
+}
+
+.container__item {
+    max-width: 800px;
+    margin: 0px 10px;
+    position: relative;
+    z-index: 15;
+}
+
+h1, .main__p {
+    text-align: center;
+    color: #fff;
+}
+
+span {
+    color: rgb(1, 159, 194);
+    font-size: 35px;
+}
+
+.p__titulo {
+    color: #fff;
+    text-wrap: pretty;
+    text-align: center;
+}
+
+
+
+/*Seccion de cursos*/
+
+.main__cursos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cursos__container {
+    width: 300px;
+    border-radius: 10px;
+    transition: background 0.4s,  box-shadow 0.4s, transform 0.4s;
+}
+
+.cursos__container:hover {
+    box-shadow: 1px 1px 4px 1px #0007;
+    background: #eeee;
+    transform: scale(1.02);
+}
+
+.cursos__container-img {
+    max-width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.curso_img-1 {
+    background-image: url(/Servicios/Imagenes/Arte\ Creativo.jpeg);
+}
+
+.curso_img-2 {
+   background-image: url(/Servicios/Imagenes/Bolas\ y\ Carteras.jpeg);
+}
+
+.curso_img-3 {
+    background-image: url(/Servicios/Imagenes/Cejas.jpeg);
+}
+
+.curso_img-4 {
+    background-image: url(/Servicios/Imagenes/Cocina.jpeg);
+}
+
+.curso_img-5 {
+    background-image: url(/Servicios/Imagenes/Computacion.jpeg);
+}
+
+.curso_img-6 {
+    background-image: url(/Servicios/Imagenes/Corte\ y\ Confeccion.jpeg);
+}
+
+.curso_img-7 {
+    background-image: url(/Servicios/Imagenes/Decoracion\ de\ Globos.jpeg);
+}
+
+.curso_img-8 {
+    background-image: url(/Servicios/Imagenes/Lazos\ y\ Cintillos.jpeg);
+}
+
+.curso_img-9 {
+    background-image: url(/Servicios/Imagenes/Manicure\ y\ Pedicure.jpeg);
+}
+
+.curso_img-10 {
+    background-image: url(/Servicios/Imagenes/Mant.\ de\ Electrodomesticos.jpeg);
+}
+
+.curso_img-11 {
+    background-image: url(/Servicios/Imagenes/Pasapalos.jpeg);
+}
+
+.curso_img-12 {
+    background-image: url(/Servicios/Imagenes/Peluqueria.jpeg);
+}
+
+.curso_img-13 {
+    background-image: url(/Servicios/Imagenes/Resposteria.jpeg);
+}
+
+.curso_img-14 {
+    background-image: url(/Servicios/Imagenes/Ropa\ Sport.jpeg);
+}
+
+.curso_img-15 {
+    background-image: url(/Servicios/Imagenes/Ropa\ Intima.jpeg);
+}
+
+.cursos__container-h2-p {
+    max-width: 300px;
+    padding: 15px;
+    
+}
+
+.h2__curos {
+    text-align: center;
+}
+
+.p__curos {
+    text-align: justify;
+}
+
+/*Aside para botones anterior y siguiente*/
+
+.aside {
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_boton_aside {
+    transition: transform 0.6s;
+    margin: 45px 0;
+}
+
+.container_boton_aside:hover {
+    transform: scale(1.1);
+}
+
+.boton {
+    background-color: rgb(1, 121, 148);
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    transition: background 0.6s;
+    box-shadow: 1px 1px 4px 1px #0007;;
+}
+
+/* Footer pie de pagina*/
+
+.footer {
+    background: rgb(1, 121, 148);
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    
+}
+
+.footer__container {
+    padding: 30px;
+}
+
+.footer__p {
+    text-wrap: pretty;
+}
+
+.footer__h3-redes {
+    text-wrap: balance;
+   
+}
+
+.footer__iconos {
+    font-size: 25px;
+    padding: 0 5px;
+    color: #fff;
+}
+
+.redes {
+    text-align: center;
+}
+
+.contac_p {
+    font-family: sans-serif;
+}
+
+/*Media quire para ajustar algunas propiedades al celular*/
+
+@media screen and (max-width: 750px) {
+
+    .header {
+        justify-content: space-between;
+    }
+    
+    .header__open-nav {
+        display: inline-block;
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        right: 10px;
+    }
+
+    .nav {
+        display: none;
+        background-color: rgb(1, 121, 148);
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        z-index: -1;
+    }
+
+    .nav__ul {
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .checkbox:checked ~ .nav {
+        display: flex;
+    }
+    
+    
+}
+
+@media screen and (max-width: 480px)
+{
+    .cursos__container {
+        transition: none;
+        box-shadow: 1px 1px 4px 1px #0007;
+        background: #eeee;
+        transform: none;
+    }
+
+    .cursos__container:hover {
+        transform: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__container {
+        text-align: center;
+    }
+}

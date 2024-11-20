@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela Para El Emprendimiento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="/Horarios/Imagenes/logo-ico.ico">
+</head>
+<body>
+
+    <!--Barra de navegacion-->
+
+    <header class="header">
+
+        <input type="checkbox" class="checkbox" id="open-nav">
+        <label for="open-nav" class="header__open-nav"><i class="fa-solid fa-bars"></i></label>
+
+        <div class="container__logo">
+    
+            <img class="logo_img" src="/Horarios/Imagenes/logo1.png" alt="">
+
+        </div>
+
+        <nav class="nav">
+    
+            <ul class="nav__ul">
+    
+                <li class="nav__ul-li">
+                    <a href="/index.html" class="nav__ul-li-link">Inicio</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="/Servicios/index.html" class="nav__ul-li-link">Servicios</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="/Nosotros/index.html" class="nav__ul-li-link">Nosotros</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="#" class="nav__ul-li-link">Horarios</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="/Regístrate/" class="nav__ul-li-link">Regístrate</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="/Ayuda/index.html" class="nav__ul-li-link">Ayuda</a>
+                </li>
+    
+            </ul>
+    
+        </nav>
+
+    </header>
+
+    <!--Titulo de la pagina-->
+
+    <main>
+
+        <div class="main__container">
+            <div class="main__overlay">
+
+            </div>
+            <div class="container__item">
+
+                <h1>Horarios</h1>
+                <p class="p__titulo">Bienvenido a nuestra sección de Horarios, aqui encontrarás todo referente a los horarios de cada
+                    curso y conoceras toda información si es adecuado a tu tiempo libre.
+                </p>
+            </div>
+        </div>
+
+        <section class="section__horario">
+            <div class="container__horario">
+                <h2 class="h2__hora">Horarios De Todos Los Cursos</h2>
+                <p class="p__hora">Estos se clasifican por la Mañana desde las 8am a 12pm y en la Tarde desde la 1:30pm a 4:20pm.</p>
+            </div>
+            
+            <table class="tabla_1">
+                <tr>
+                    <th>Turno</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <th rowspan="5">Mañana</th>
+                    <td>Peluqueria</td>
+                    <td>Reposteria</td>
+                    <td>Ropa Intima</td>
+                    <td>Cejas</td>
+                    <td>Sublimación</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Corte y Costura</td>
+                    <td>Computación</td>
+                    <td>Lazos y Cintillos</td>
+                    <td>Ropa Sports</td>
+                    <td rowspan="2">Bisuteria</td>
+                </tr>
+                <tr>
+                    <td>Bolsos y Carteras</td>
+                    <td colspan="2" rowspan="3">Arte Creativo</td>
+                   
+                </tr>
+                <tr>
+                    <td>Manicure y Pedicure</td>
+                    <td rowspan="2">Decoración de Globos</td>
+                </tr>
+                <tr>
+                    <td>Reparacion de Electrodomesticos y refrigeración</td>
+                   
+                </tr>
+                <tr>
+                    <th rowspan="2">Tarde</th>
+                    <td rowspan="2"></td>
+                    <td>Cocina</td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2">cocina</td>
+                </tr>
+                <tr>
+                    <td>Ropa Sports</td>
+                </tr>
+            </table>
+            
+            <!--Tabla responsivi-->
+
+            
+            <table class="tabla_2">
+                <tr>
+                    <th colspan="2">Turno</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Mañana</th>
+                </tr>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                </tr>
+                <tr>
+                    <td>Peluqueria</td>
+                    <td>Reposteria</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Corte y Costura</td>
+                    <td>Computación</td>
+                </tr>
+                <tr>
+                    <td>Bolsos y Carteras</td>
+                </tr>
+                <tr>
+                    <td>Manicure y Pedicure</td>
+                </tr>
+                <tr>
+                    <td>Reparacion de Electrodomesticos y refrigeración</td>
+                </tr>
+                <tr>
+                    <th>Miercoles</th>
+                    <th>jueves</th>
+                </tr>
+                <tr>
+                    <td>Ropa Intima</td>
+                    <td>Cejas</td>
+                </tr>
+                <tr>
+                    <td>Lazos y Cintillos</td>
+                    <td>Ropa Sports</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Arte Creativo</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Viernes</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Sublimación</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Bisuteria</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Decoración de Globos</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Tarde</th>
+                </tr>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                </tr>
+                <tr>
+                    <td rowspan="2"></td>
+                    <td>Cocina</td>
+                </tr>
+                <tr>
+                    <td>Ropa Sports</td>
+                </tr>
+                <tr>
+                    <th>Miercoles</th>
+                    <th>jueves</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Cocina</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Viernes</th>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+
+    <!--Aside para botones anterior y siguiente-->
+
+    <aside class="aside">
+        <div class="container_boton_aside">
+            <a class="boton" href="/Nosotros/index.html">Anterior</a>
+        </div>
+        <div class="container_boton_aside">
+            <a class="boton" href="/Regístrate/index.html">Siguiente</a>
+        </div>
+    </aside>
+
+    <!--Pie de pagina-->
+    
+    <footer class="footer">
+
+        <div class="footer__container">
+            <h3>Dirección</h3>
+            <p class="footer__p"><i class="fa-solid fa-location-dot"></i>  Urbanización Pueblo Nuevo, Calle 4 entre Carrera 1 y 3-A</p>
+        </div>
+
+        <div class="footer__container">
+            <h3>Contactos</h3>
+            <p class="contac_p">[0251] 253.81.29 <br> [0251] 253.82.71</p>
+        </div>
+
+        <div class="footer__container redes">
+            <h3 class="footer__h3-redes">Nuestras Redes Sociales</h3>
+            <a class="footer__iconos" href="https://www.facebook.com/profile.php?id=61567476025135" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="footer__iconos" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+       
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela Para El Emprendimiento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="/Regístrate/Imagenes/logo-ico.ico">
+</head>
+<body>
+
+    <!--Barra de navegacion-->
+
+    <header class="header">
+
+        <input type="checkbox" class="checkbox" id="open-nav">
+        <label for="open-nav" class="header__open-nav"><i class="fa-solid fa-bars"></i></label>
+
+        <div class="container__logo">
+    
+            <img class="logo_img" src="/Regístrate/Imagenes/logo1.png" alt="">
+
+        </div>
+
+        <nav class="nav">
+    
+            <ul class="nav__ul">
+    
+                <li class="nav__ul-li">
+                    <a href="/index.html" class="nav__ul-li-link">Inicio</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="/Servicios/index.html" class="nav__ul-li-link">Servicios</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="/Nosotros/index.html" class="nav__ul-li-link">Nosotros</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="/Horarios/index.html" class="nav__ul-li-link">Horarios</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="/Regístrate/" class="nav__ul-li-link">Regístrate</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a href="/Ayuda/index.html" class="nav__ul-li-link">Ayuda</a>
+                </li>
+    
+            </ul>
+    
+        </nav>
+
+    </header>
+
+    <!--Titulo de la pagina con fotos-->
+
+    <main>
+
+        <div class="main__container">
+            <div class="main__overlay">
+
+            </div>
+            <div class="container__item">
+
+                <h1>Regístrate</h1>
+                <p class="p__titulo">¡Bienvenido a la sección de Registro de nuestra escuela! En esta área, 
+                    encontrarás toda la información necesaria para realizar tu inscripción de manera sencilla y rápida.
+                    Nuestro objetivo es brindarte un proceso claro y accesible, asegurando que cada paso esté diseñado para facilitar tu experiencia.
+                </p>
+            </div>
+        </div>
+
+        <section class="section__regis">
+
+            <div class="container__info">
+                <h2 class="h2__info">Registrate Facil y Rapido</h2>
+                <p>Para registrate solamente debes de llenar cada campo de texto correctamente, pulsar el boton de ENVIAR y listo. </p>
+                <h3>¡Aviso Importante!</h3>
+                <p>Esta area todavia esta inhabilitada, en un futuro sera habilitada para el publico.</p>
+            </div>
+
+            <form class="form">
+                <h2 class="h2__form">Regístrate</h2>
+
+                <fieldset class="borde__field">
+
+                    <legend class="tex__legend">Datos Personales</legend>
+
+                    <div class="container__input">
+
+                        <label class="text__label">Nombre
+
+                            <input class="form__input" type="text" placeholder="Nombre" required>
+
+                        </label>
+
+                    </div>
+
+                    <div class="container__input">   
+
+                        <label class="text__label">Apellido
+
+                               <input class="form__input" type="text" placeholder="Apellido" required>
+
+                        </label>
+
+                    </div>
+
+                    
+                    <div class="container__input">   
+
+                        <label class="text__label">Cedula
+
+                               <input class="form__input" type="text" placeholder="V-0000000" required>
+
+                        </label>
+
+                    </div>
+
+                    <div class="container__input">   
+
+                        <label class="text__label">Correo Electronico
+
+                               <input class="form__input" type="email" placeholder="tu_correo_@gmail.com" required>
+
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+                <div class="container__boton">
+                    <button class="form_boton_enviar">Enviar</button>
+                </div>
+                
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!--Aside para botonones anterior y siguiente-->
+
+    <aside class="aside">
+        <div class="container_boton_aside">
+            <a class="boton" href="/Horarios/index.html">Anterior</a>
+        </div>
+        <div class="container_boton_aside">
+            <a class="boton" href="/Ayuda/index.html">Siguiente</a>
+        </div>
+    </aside>
+
+    <!--Pie de pagina-->
+    
+    <footer class="footer">
+
+        <div class="footer__container">
+            <h3>Dirección</h3>
+            <p class="footer__p"><i class="fa-solid fa-location-dot"></i>  Urbanización Pueblo Nuevo, Calle 4 entre Carrera 1 y 3-A</p>
+        </div>
+
+        <div class="footer__container">
+            <h3>Contactos</h3>
+            <p class="contac_p">[0251] 253.81.29 <br> [0251] 253.82.71</p>
+        </div>
+
+        <div class="footer__container redes">
+            <h3 class="footer__h3-redes">Nuestras Redes Sociales</h3>
+            <a class="footer__iconos" href="https://www.facebook.com/profile.php?id=61567476025135" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="footer__iconos" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+       
+    </footer>
+
+</body>
+</html>
