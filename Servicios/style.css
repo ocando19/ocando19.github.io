@@ -136,63 +136,48 @@ span {
     border-radius: 10px;
 }
 
-.curso_img-1 {
-    background-image: url(/Servicios/Imagenes/Arte\ Creativo.jpeg);
-}
 
-.curso_img-2 {
+.curso_img-1 {
    background-image: url(/Servicios/Imagenes/Bolas\ y\ Carteras.jpeg);
 }
 
-.curso_img-3 {
+.curso_img-2 {
     background-image: url(/Servicios/Imagenes/Cejas.jpeg);
 }
 
-.curso_img-4 {
+.curso_img-3 {
     background-image: url(/Servicios/Imagenes/Cocina.jpeg);
 }
 
-.curso_img-5 {
+.curso_img-4 {
     background-image: url(/Servicios/Imagenes/Computacion.jpeg);
 }
 
-.curso_img-6 {
+.curso_img-5 {
     background-image: url(/Servicios/Imagenes/Corte\ y\ Confeccion.jpeg);
 }
 
-.curso_img-7 {
+.curso_img-6 {
     background-image: url(/Servicios/Imagenes/Decoracion\ de\ Globos.jpeg);
 }
 
-.curso_img-8 {
-    background-image: url(/Servicios/Imagenes/Lazos\ y\ Cintillos.jpeg);
-}
-
-.curso_img-9 {
+.curso_img-7 {
     background-image: url(/Servicios/Imagenes/Manicure\ y\ Pedicure.jpeg);
 }
 
-.curso_img-10 {
+.curso_img-8 {
     background-image: url(/Servicios/Imagenes/Mant.\ de\ Electrodomesticos.jpeg);
 }
 
-.curso_img-11 {
-    background-image: url(/Servicios/Imagenes/Pasapalos.jpeg);
-}
-
-.curso_img-12 {
+.curso_img-9 {
     background-image: url(/Servicios/Imagenes/Peluqueria.jpeg);
 }
 
-.curso_img-13 {
+.curso_img-10 {
     background-image: url(/Servicios/Imagenes/Resposteria.jpeg);
 }
 
-.curso_img-14 {
-    background-image: url(/Servicios/Imagenes/Ropa\ Sport.jpeg);
-}
-
-.curso_img-15 {
+.curso_img-11 {
     background-image: url(/Servicios/Imagenes/Ropa\ Intima.jpeg);
 }
 
