@@ -230,17 +230,19 @@ span {
 }
 
 /*footer pie de pagina*/
-
-.footer {
+.footer{
     background: rgb(1, 121, 148);
-    display: flex;
     color: #fff;
-    justify-content: space-around;
-    
+    padding: 10px;
 }
 
 .footer__container {
-    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__container2 {
+    padding: 20px;
 }
 
 .footer__p {
@@ -264,6 +266,10 @@ span {
 
 .contac_p {
     font-family: sans-serif;
+}
+
+.footer__h2 {
+    text-align: center;
 }
 
 /*Media quire para ajustar algunas propiedades al celular*/
@@ -332,12 +338,12 @@ span {
         height: 250px;
     }
 
-    .footer {
+    .footer__container {
         flex-direction: column;
         align-items: center;
     }
 
-    .footer__container {
+    .footer__container2 {
         text-align: center;
     }
 }
