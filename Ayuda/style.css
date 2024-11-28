@@ -207,7 +207,7 @@ h1, .main__p {
 }
 
 .footer__container2 {
-    padding: 20px;
+    padding: 10px;
 }
 
 .footer__p {
@@ -234,6 +234,10 @@ h1, .main__p {
 }
 
 .footer__h2 {
+    text-align: center;
+}
+
+.p__footer {
     text-align: center;
 }
 

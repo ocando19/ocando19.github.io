@@ -242,7 +242,7 @@ span {
 }
 
 .footer__container2 {
-    padding: 20px;
+    padding: 10px;
 }
 
 .footer__p {
@@ -270,6 +270,10 @@ span {
 
 .footer__h2 {
     text-align: center;
+}
+
+.p__footer {
+    text-align: center
 }
 
 /*Media quire para ajustar algunas propiedades al celular*/

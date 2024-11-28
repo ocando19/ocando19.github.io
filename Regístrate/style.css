@@ -168,10 +168,10 @@ h1, .main__p {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.form_boton_enviar {
+.form_boton_enviar, .form_boton_reset {
     background-color: #fff;
     border: none;
     padding: 10px 20px;
@@ -185,6 +185,14 @@ h1, .main__p {
 }
 
 .form_boton_enviar:active {
+    background-color: #eee;
+}
+
+.form_boton_reset:hover {
+    background-color: #ddd;
+}
+
+.form_boton_reset:active {
     background-color: #eee;
 }
 
@@ -231,7 +239,7 @@ h1, .main__p {
 }
 
 .footer__container2 {
-    padding: 20px;
+    padding: 10px;
 }
 
 .footer__p {
@@ -258,6 +266,10 @@ h1, .main__p {
 }
 
 .footer__h2 {
+    text-align: center;
+}
+
+.p__footer {
     text-align: center;
 }
 
